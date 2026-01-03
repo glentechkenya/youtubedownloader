@@ -1,0 +1,13 @@
+{
+  "name": "glentech-yt-downloader",
+  "version": "1.0.0",
+  "description": "Futuristic YouTube downloader with Gifted API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.3"
+  }
+}
