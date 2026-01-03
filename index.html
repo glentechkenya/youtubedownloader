@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Glentech YT Downloader</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="matrix-bg"></div>
+<header>GLENTECH YOUTUBE DOWNLOADER • © 2026</header>
+
+<div class="container">
+  <div class="search-box">
+    <input type="text" id="query" placeholder="Search YouTube or paste link..." />
+    <button onclick="searchYT()">Search</button>
+  </div>
+
+  <div class="quality-selectors">
+    <label>MP3 Quality:
+      <select id="mp3quality">
+        <option value="64">64 kbps</option>
+        <option value="128" selected>128 kbps</option>
+        <option value="320">320 kbps</option>
+      </select>
+    </label>
+
+    <label>MP4 Quality:
+      <select id="mp4quality">
+        <option value="360">360p</option>
+        <option value="720" selected>720p</option>
+        <option value="1080">1080p</option>
+      </select>
+    </label>
+  </div>
+
+  <div id="results" class="results"></div>
+</div>
+
+<footer>Built with Gifted API • Glentech Kenya</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
